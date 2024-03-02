@@ -1,1 +1,0 @@
-TestPaint.java
