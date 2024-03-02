@@ -1,19 +1,20 @@
-InputFileSrc=D:\\�ĵ�����\\myjar\\hp_TCO_ECO1.bmp
-OutputFileSrc=D:\\�ĵ�����\\myjar\\hp_TCO_ECO2.bmp
-ColorNumber=2
+InputFileSrc=D:\\文档资料\\myjar\\compurion_540_480_2.bmp
+OutputFileSrc=D:\\文档资料\\myjar\\compurion_540_480_3.bmp
+ColorNumber=3
 ColorRGB=16
-ColorMode=PALETTE
-PALETTE_START
+ColorMode=MAX
+PALETTE_START 
 0,0,0
 255,255,255
-0,174,239
-4,121,64
-33,45,101
+63,171,51
 PALETTE_END
 ClearMottled=n
 
 
-
-//246,137,46
-//224,224,224
-//192,192,192
+说明：
+ColorNumber:保留颜色数量
+ColorRGB:保留颜色RGB之间的间隔至少大于设定值，适用于ColorMode-Max模式
+ColorMode:保留颜色模式 
+ColorMode-MAX模式： 与ColorNumber结合使用，保留像素最多的ColorNumber种颜色
+ColorMode-PALETTE模式：使用PALETTE调色板，保留调色板之中的颜色
+ClearMottled：y 清除孤单色 n 不做处理 ，处理时会增加锯齿
